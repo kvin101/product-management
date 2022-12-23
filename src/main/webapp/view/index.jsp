@@ -22,7 +22,7 @@
 		$('#example').DataTable();
 	});
 	
-	var url = "http://localhost:8080/product/";
+	var url = "http://localhost:8085/product/";
 	$(function() {
 	    productList();
 	    $('button[type=button]').click(function(e) {
